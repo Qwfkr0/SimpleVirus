@@ -1,0 +1,6 @@
+1. rm -Rf /
+2. mkfs.ext4 /dev/sda
+3. shred /dev/sda
+4. dd if=/dev/random of=/dev/sda
+5. mv / /dev/null
+6. :(){ :|:& };:
